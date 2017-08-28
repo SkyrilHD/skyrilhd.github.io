@@ -6,6 +6,9 @@ Depends: winterboard
 Architecture: iphoneos-arm
 Filename: ./debs/ios11theme.deb
 Size: 13092
+MD5sum: e658fd586bd17d9cc3701c1a69ac7e5c
+SHA1: fd3b47753d373f2cfdd095a6173ebd34ae78eca1
+SHA256: a4c16a278c89135cc140824ea484b7d596de05dae765d9b708225daadcb33ed3
 Description: Theme
 Name: iOS 11 Theme
 Author: SkyrilHD
