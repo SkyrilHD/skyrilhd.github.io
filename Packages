@@ -1,9 +1,14 @@
-Package: com.skyrilhd.ios11theme
-Name: iOS 11 Theme
-Version: 1.0
+Package: com.skyrilhd.ios11theme_1.0_iphoneos-arm
 Architecture: iphoneos-arm
-Description: This is an iOS 11 Theme
-Maintainer: SkyrilHD <skyrilhd.info@gmail.com>
-Author: SkyrilHD <skyrilhd.info@gmail.com>
+Version: 1.0
 Section: Themes
+Maintainer: SkyrilHD
 Depends: winterboard
+Filename: ./com.skyrilhd.ios11theme_1.0_iphoneos-arm.deb
+Size: 13092
+MD5sum: 94227B92F22CF65DCC3BA2B8824A1FC4
+Homepage: http://twitter.com/skyrilhd
+Description: Theme
+Name: iOS 11 Theme
+Author: SkyrilHD
+Depiction: A little Theme
