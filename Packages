@@ -1,10 +1,10 @@
-Package: com.skyrilhd.ios11theme
+Package: com.skyrilhd.ios11theme_1.0_iphoneos-arm
 Version: 1.0
 Section: Tweaks
 Maintainer: SkyrilHD
 Depends: winterboard
 Architecture: iphoneos-arm
-Filename: ./debs/ios11theme.deb
+Filename: ./com.skyrilhd.ios11theme_1.0_iphoneos-arm.deb
 Size: 13092
 MD5sum: e658fd586bd17d9cc3701c1a69ac7e5c
 SHA1: fd3b47753d373f2cfdd095a6173ebd34ae78eca1
