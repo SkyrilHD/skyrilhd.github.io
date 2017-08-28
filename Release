@@ -1,8 +1,8 @@
 Origin: SkyrilHD's Repo
-Label: SkyrilHD
+Label: SkyrilHD's Repo
 Suite: stable
 Version: 1.0
-Codename: SkyrilHD
-Architecture: iphoneos-arm
+Codename: ios
+Architectures: iphoneos-arm
 Components: main
 Description: SkyrilHD's Tweaks
