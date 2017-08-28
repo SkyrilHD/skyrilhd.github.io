@@ -1,0 +1,8 @@
+Origin: SkyrilHD's Repo
+Label: SkyrilHD
+Suite: stable
+Version: 1.0
+Codename: SkyrilHD
+Architecture: iphoneos-arm
+Components: main
+Description: SkyrilHD's Tweaks
