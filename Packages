@@ -1,15 +1,28 @@
 Package: com.skyrilhd.ios11theme
 Version: 1.0
-Architecture: iphoneos-arm
+Section: Themes
 Maintainer: SkyrilHD <skyrilhd.info@gmail.com>
 Depends: winterboard
-Filename: ./com.skyrilhd.ios11theme_1.0_iphoneos-arm.deb
+Architecture: iphoneos-arm
+Filename: ./debs/com.skyrilhd.ios11theme_1.0_iphoneos-arm.deb
 Size: 13092
-MD5sum: e658fd586bd17d9cc3701c1a69ac7e5c
-SHA1: fd3b47753d373f2cfdd095a6173ebd34ae78eca1
-SHA256: a4c16a278c89135cc140824ea484b7d596de05dae765d9b708225daadcb33ed3
-Section: Themes
+MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
+Description: This is a sample new package. Firmware should be greater than 7.0
 Name: iOS 11 Theme
 Author: SkyrilHD <skyrilhd.info@gmail.com>
-Description: This is an iOS 11 Theme
-Depiction: http://skyrilhd.github.io/index.html
+Depiction: http://skyrilhd.github.io/depictions/?p=com.supermamon.newpackage
+
+Package: com.supermamon.oldpackage
+Version: 1.0.0-1
+Section: Tweaks
+Maintainer: Reposi3 <reposithree@gmail.com>
+Depends: firmware (<7.0)
+Architecture: iphoneos-arm
+Filename: ./debs/com.supermamon.oldpackage_1.0.0-1_iphoneos-arm.deb
+Size: 860
+MD5sum: 8c606f0c05217aa2a20949091fe516f0
+Description: This is a sample old package. Firmware should be lower than 7.0
+Name: Old Package
+Author: Reposi3 <reposithree@gmail.com>
+Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
+
