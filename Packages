@@ -8,7 +8,7 @@ Filename: ./debs/com.skyrilhd.ios11theme_1.0_iphoneos-arm.deb
 Installed-Size: 138888
 MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
 Description: Kodi Entertainment Center for iOS
-Name: Kodi-iOS
+Name: Kodi-iOS-ayieti
 Author: Team-Kodi
 Depiction: http://skyrilhd.github.io/depictions/?p=com.supermamon.oldpackage
 Priority: Extra
@@ -42,7 +42,7 @@ Filename: ./debs/com.skyrilhd.ios11theme_1.0_iphoneos-arm.deb
 Installed-Size: 138888
 MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
 Description: Kodi Entertainment Center for iOS
-Name: Kodi-iOS
+Name: Kodi-iOS-moruk
 Author: Team-Kodi
 Depiction: http://skyrilhd.github.io/depictions/?p=com.supermamon.oldpackage
 Priority: Extra
