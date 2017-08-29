@@ -1,16 +1,19 @@
-Package: com.supermamon.oldpackage
-Version: 1.0.0-1
-Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (<7.0)
+Package: com.skyrilhd.ioseleventheme
+Version: 17.4-0
+Section: Multimedia
+Maintainer: Skyril
+Depends: firmware (>= 5.1)
 Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.oldpackage_1.0.0-1_iphoneos-arm.deb
-Size: 860
-MD5sum: 8c606f0c05217aa2a20949091fe516f0
-Description: This is a sample old package. Firmware should be lower than 7.0
-Name: Old Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
+Filename: ./debs/com.skyrilhd.ios11theme_1.0_iphoneos-arm.deb
+Installed-Size: 138888
+MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
+Description: Kodi Entertainment Center for iOS
+Name: Kodi-iOS
+Author: Team-Kodi
+Depiction: http://skyrilhd.github.io/depictions/?p=com.supermamon.newpackage
+Priority: Extra
+Icon: file:///Applications/Kodi.app/AppIcon57x57.png
+Filename: ./debs/com.skyrilhd.ios11theme_1.0_iphoneos-arm.deb
 
 Package: org.xbmc.kodi-ios
 Version: 17.4-0
@@ -18,7 +21,7 @@ Section: Multimedia
 Maintainer: Memphiz
 Depends: firmware (>= 5.1)
 Architecture: iphoneos-arm
-Filename: ./debs/com.skyrilhd.ios11theme_1.0_iphoneos-arm.deb
+Filename: ./debs/org.xbmc.kodi-ios_17.4-0_iphoneos-arm.deb
 Installed-Size: 138888
 MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
 Description: Kodi Entertainment Center for iOS
