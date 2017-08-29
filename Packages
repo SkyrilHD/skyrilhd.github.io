@@ -34,17 +34,16 @@ Filename: ./debs/org.xbmc.kodi-ios_17.4-0_iphoneos-arm.deb
 
 Package: com.skyrilhd.ioseleventheme
 Version: 17.4-0
-Section: Multimedia
+Section: Themes
 Maintainer: Skyril
 Depends: firmware (>= 5.1)
 Architecture: iphoneos-arm
-Filename: ./debs/com.skyrilhd.ios11theme_1.0_iphoneos-arm.deb
+Filename: ./debs/com.skyrilhd.ioseleventheme_1.0_iphoneos-arm.deb
 Installed-Size: 13092
 MD5sum: 5f52a8c2ad05eb8063707e88da11b8a9
-Description: iOS 11 Theme
-Name: iOS 11 Theme
+Description: I love you.
+Name: iOSElevenTheme
 Author: SkyrilHD
 Depiction: http://skyrilhd.github.io/depictions/?p=com.supermamon.oldpackage
 Priority: Extra
-Icon: file:///Applications/Kodi.app/AppIcon57x57.png
-Filename: ./debs/com.skyrilhd.ios11theme_1.0_iphoneos-arm.deb
+Filename: ./debs/com.skyrilhd.ioseleventheme_1.0_iphoneos-arm.deb
