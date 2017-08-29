@@ -12,16 +12,19 @@ Name: Old Package
 Author: Reposi3 <reposithree@gmail.com>
 Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
 
-Package: com.skyrilhd.ios11theme
-Version: 1.0
-Section: Themes
-Maintainer: SkyrilHD <skyrilhd.info@gmail.com>
-Depends: winterboard
+Package: org.xbmc.kodi-ios
+Version: 17.4-0
+Section: Multimedia
+Maintainer: Memphiz
+Depends: firmware (>= 5.1)
 Architecture: iphoneos-arm
 Filename: ./debs/com.skyrilhd.ios11theme_1.0_iphoneos-arm.deb
-Size: 13092
+Installed-Size: 138888
 MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
-Description: This is a sample new package. Firmware should be greater than 7.0
-Name: iOS 11 Theme
-Author: SkyrilHD <skyrilhd.info@gmail.com>
+Description: Kodi Entertainment Center for iOS
+Name: Kodi-iOS
+Author: Team-Kodi
 Depiction: http://skyrilhd.github.io/depictions/?p=com.supermamon.newpackage
+Priority: Extra
+Icon: file:///Applications/Kodi.app/AppIcon57x57.png
+Filename: ./debs/org.xbmc.kodi-ios_17.4-0_iphoneos-arm.deb
