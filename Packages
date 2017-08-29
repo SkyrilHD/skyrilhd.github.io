@@ -21,7 +21,7 @@ Section: Multimedia
 Maintainer: Memphiz
 Depends: firmware (>= 5.1)
 Architecture: iphoneos-arm
-Filename: ./debs/org.xbmc.kodi-ios_17.4-0_iphoneos-arm.deb
+Filename: http://skyrilhd.github.io/debs/org.xbmc.kodi-ios_17.4-0_iphoneos-arm.deb
 Installed-Size: 138888
 MD5sum: 193a828ad69458fe4f30e14e89fd5173
 Description: Kodi Entertainment Center for iOS
@@ -30,7 +30,6 @@ Author: Team-Kodi
 Depiction: http://skyrilhd.github.io/depictions/?p=com.supermamon.newpackage
 Priority: Extra
 Icon: file:///Applications/Kodi.app/AppIcon57x57.png
-Filename: ./debs/org.xbmc.kodi-ios_17.4-0_iphoneos-arm.deb
 
 Package: com.skyrilhd.ioseleventheme
 Version: 17.4-0
@@ -38,12 +37,11 @@ Section: Themes
 Maintainer: Skyril
 Depends: firmware (>= 5.1)
 Architecture: iphoneos-arm
-Filename: ./debs/com.skyrilhd.ioseleventheme_1.0_iphoneos-arm.deb
-Installed-Size: 13092
-MD5sum: 5f52a8c2ad05eb8063707e88da11b8a9
+Filename: http://skyrilhd.github.io/debs/com.skyrilhd.ioseleventheme_1.0_iphoneos-arm.deb
+Installed-Size: 13332
+MD5sum: c74b68f3de01820dfde9b5ac63a27751
 Description: I love you.
 Name: iOSElevenTheme
 Author: SkyrilHD
 Depiction: http://skyrilhd.github.io/depictions/?p=com.supermamon.oldpackage
 Priority: Extra
-Filename: ./debs/com.skyrilhd.ioseleventheme_1.0_iphoneos-arm.deb
