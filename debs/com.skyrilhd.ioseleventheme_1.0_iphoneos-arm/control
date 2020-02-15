@@ -1,9 +1,0 @@
-Package: com.skyrilhd.ios11theme
-Name: iOS 11 Theme
-Version: 1.0
-Architecture: iphoneos-arm
-Description: This is a sample old package. Firmware should be lower than 7.0
-Maintainer: SkyrilHD <skyrilhd@gmail.com>
-Author: SkyrilHD <skyrilhd@gmail.com>
-Section: Themes
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage

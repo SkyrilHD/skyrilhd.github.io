@@ -1,8 +1,8 @@
 Origin: SkyrilHD’s Private Repo
-Label: SkyrilHD’s PrivateRepo
+Label: SkyrilHD’s Private Repo
 Suite: stable
-Version: 1.0
-Codename: ios
+Version: 0.1-alpha
+Codename: cydia-ios
 Architectures: iphoneos-arm
 Components: main
 Description: SkyrilHD’s Public Repo
