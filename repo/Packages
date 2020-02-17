@@ -29,3 +29,21 @@ Name: iOSElevenTheme
 Author: SkyrilHD
 Depiction: http://skyrilhd.github.io/repo/depictions/?p=com.skyrilhd.ioseleventheme
 Priority: Extra
+
+Package: org.xbmc.kodi-ios64
+Version: 18.5-0
+Pre-Depends: cy+cpu.arm64
+Conflicts: org.xbmc.kodi-ios
+Replaces: org.xbmc.kodi-ios
+Section: Multimedia
+Maintainer: Memphiz
+Depends: firmware (>= 9.0)
+Architecture: iphoneos-arm
+Filename: http://skyrilhd.github.io/repo/debs/org.xbmc.kodi-ios_18.5-0_iphoneos-arm64.deb
+Installed-Size: 185728
+MD5sum: 5F26B1F8FA297E4D768CE3701815A4AA
+Description: Kodi Entertainment Center for iOS
+Name: Kodi-iOS (64-bit)
+Author: Team-Kodi
+Depiction: http://skyrilhd.github.io/repo/depictions/?p=com.skyrilhd.ioseleventheme
+Priority: Extra

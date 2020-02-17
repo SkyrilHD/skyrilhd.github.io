@@ -1,5 +1,5 @@
 <packageInfo>
-    <bundleId>orb.xbmc.kodi-ios</bundleId>
+    <bundleId>org.xbmc.kodi-ios</bundleId>
     <name>Kodi</name>
     <version>17.4-0</version>
     <descriptions>
