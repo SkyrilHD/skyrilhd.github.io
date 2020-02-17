@@ -9,41 +9,7 @@ MD5sum: c74b68f3de01820dfde9b5ac63a27751
 Description: I love you.
 Name: iOSElevenTheme
 Author: SkyrilHD
-Depiction: http://skyrilhd.github.io/depictions/?p=com.supermamon.oldpackage
-
-Package: org.xbmc.kodi-ios
-Version: 17.6-0
-Priority: Extra
-Section: Multimedia
-Maintainer: Memphiz
-Depends: firmware (>= 5.1)
-Architecture: iphoneos-arm
-Filename: .//debs/org.xbmc.kodi-ios_17.6-0_iphoneos-arm.deb
-Size: 47968596
-Installed-Size: 138976
-MD5sum: 0805fddc67505382c22ff369e983a5bb
-Description: Kodi Entertainment Center for iOS
-Name: Kodi-iOS
-Author: Team-Kodi
-Homepage: http://kodi.tv/
-Icon: file:///Applications/Kodi.app/AppIcon57x57.png
-
-Package: org.xbmc.kodi-ios
-Version: 17.4-0
-Priority: Extra
-Section: Multimedia
-Maintainer: Memphiz
-Depends: firmware (>= 5.1)
-Architecture: iphoneos-arm
-Filename: .//debs/org.xbmc.kodi-ios_17.4-0_iphoneos-arm.deb
-Size: 48011762
-Installed-Size: 138888
-MD5sum: 193a828ad69458fe4f30e14e89fd5173
-Description: Kodi Entertainment Center for iOS
-Name: Kodi-iOS
-Author: Team-Kodi
-Homepage: http://kodi.tv/
-Icon: file:///Applications/Kodi.app/AppIcon57x57.png
+Depiction: http://skyrilhd.github.io/repo/depictions/com.skyrilhd.ioseleventheme
 
 Package: org.xbmc.kodi-ios64
 Version: 18.5-0
