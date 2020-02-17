@@ -1,18 +1,17 @@
 Package: org.xbmc.kodi-ios
-Name: Kodi-iOS
-Depends: firmware (>= 5.1)
-Priority: Extra
 Version: 17.4-0
+Section: Multimedia
+Maintainer: Memphiz
+Depends: firmware (>= 5.1)
 Architecture: iphoneos-arm
 Filename: .//debs/org.xbmc.kodi-ios_17.4-0_iphoneos-arm.deb
 Installed-Size: 138888
+MD5sum: 193A828AD69458FE4F30E14E89FD5173
 Description: Kodi Entertainment Center for iOS
-Homepage: http://kodi.tv/
-Maintainer: Memphiz
+Name: Kodi-iOS
 Author: Team-Kodi
 Depiction: http://skyrilhd.github.io/repo/depictions/?p=org.xbmc.kodi-ios
-Section: Multimedia
-Icon: file:///Applications/Kodi.app/AppIcon57x57.png
+Priority: Extra
 
 
 Package: com.skyrilhd.ioseleventheme
