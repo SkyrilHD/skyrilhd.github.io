@@ -1,0 +1,26 @@
+<packageInfo>
+    <bundleId>orb.xbmc.kodi-ios</bundleId>
+    <name>Kodi</name>
+    <version>17.4-0</version>
+    <descriptions>
+        <description>
+            Kodi 17.4-0
+        </description>
+        <description>
+            free and open-source media player
+        </description>
+    </descriptions>
+    <compatibility>
+        <miniOS>5.1</miniOS>
+        <maxiOS>13.3</maxiOS>
+    </compatibility>
+    <dependencies>
+    </dependencies>
+    <changelog>
+        <change>
+            <changeVersion>V17.4-0</changeVersion>
+            <changeDescription>Inital Release</changeDescription>
+            <changeDescription>- Testing my package</changeDescription>
+        </change>
+    </changelog>
+</packageInfo>

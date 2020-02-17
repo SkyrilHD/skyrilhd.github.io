@@ -1,0 +1,26 @@
+<packageInfo>
+    <bundleId>com.skyrilhd.ioseleventheme</bundleId>
+    <name>iOSElevenTheme</name>
+    <version>1.0</version>
+    <descriptions>
+        <description>
+            iOS 11 Theme for iOS 10 iDevices
+        </description>
+        <description>
+            My first package
+        </description>
+    </descriptions>
+    <compatibility>
+        <miniOS>10.0</miniOS>
+        <maxiOS>13.3</maxiOS>
+    </compatibility>
+    <dependencies>
+    </dependencies>
+    <changelog>
+        <change>
+            <changeVersion>V0.1</changeVersion>
+            <changeDescription>Inital Release</changeDescription>
+            <changeDescription>- Testing my package</changeDescription>
+        </change>
+    </changelog>
+</packageInfo>
