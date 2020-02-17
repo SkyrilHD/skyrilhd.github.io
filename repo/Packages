@@ -6,7 +6,7 @@ Depends: firmware (>= 5.1)
 Architecture: iphoneos-arm
 Filename: .//debs/org.xbmc.kodi-ios_17.4-0_iphoneos-arm.deb
 Installed-Size: 138888
-MD5sum: 193A828AD69458FE4F30E14E89FD5173
+MD5sum: 193a828ad69458fe4f30e14e89fd5173
 Description: Kodi Entertainment Center for iOS
 Name: Kodi-iOS
 Author: Team-Kodi
@@ -40,7 +40,7 @@ Depends: firmware (>= 9.0)
 Architecture: iphoneos-arm
 Filename: .//debs/org.xbmc.kodi-ios_18.5-0_iphoneos-arm64.deb
 Installed-Size: 185728
-MD5sum: 5F26B1F8FA297E4D768CE3701815A4AA
+MD5sum: 5f26b1f8fa297e4d768ce3701815a4aa
 Description: Kodi Entertainment Center for iOS
 Name: Kodi-iOS (64-bit)
 Author: Team-Kodi
