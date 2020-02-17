@@ -4,7 +4,7 @@ Depends: firmware (>= 5.1)
 Priority: Extra
 Version: 17.4-0
 Architecture: iphoneos-arm
-Filename: http://skyrilhd.github.io/repo/debs/org.xbmc.kodi-ios_17.4-0_iphoneos-arm.deb
+Filename: .//debs/org.xbmc.kodi-ios_17.4-0_iphoneos-arm.deb
 Installed-Size: 138888
 Description: Kodi Entertainment Center for iOS
 Homepage: http://kodi.tv/
@@ -21,7 +21,7 @@ Section: Themes
 Maintainer: Skyril
 Depends: firmware (>= 5.1)
 Architecture: iphoneos-arm
-Filename: http://skyrilhd.github.io/repo/debs/com.skyrilhd.ioseleventheme_1.0_iphoneos-arm.deb
+Filename: .//debs/com.skyrilhd.ioseleventheme_1.0_iphoneos-arm.deb
 Installed-Size: 69888
 MD5sum: c74b68f3de01820dfde9b5ac63a27751
 Description: My first theme
@@ -39,7 +39,7 @@ Section: Multimedia
 Maintainer: Memphiz
 Depends: firmware (>= 9.0)
 Architecture: iphoneos-arm
-Filename: http://skyrilhd.github.io/repo/debs/org.xbmc.kodi-ios_18.5-0_iphoneos-arm64.deb
+Filename: .//debs/org.xbmc.kodi-ios_18.5-0_iphoneos-arm64.deb
 Installed-Size: 185728
 MD5sum: 5F26B1F8FA297E4D768CE3701815A4AA
 Description: Kodi Entertainment Center for iOS
