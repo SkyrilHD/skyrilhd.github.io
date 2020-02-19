@@ -1,3 +1,173 @@
+Package: com.opa334.safariplus
+Version: 1.3.3
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common, org.thebigboss.libcolorpicker, net.limneos.libbulletin, com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Filename: .//debs/com.opa334.safariplus_1.3.3_iphoneos-arm.deb
+Size: 312302
+Installed-Size: 1211
+MD5sum: 26208c32c940685e747dc4d07d33e4a9
+Description: Various enhancements to Safari!
+Name: Safari Plus
+Author: opa334 <opa334@protonmail.com>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=safariplusDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=safariplusDp
+Icon: file:///Library/PreferenceBundles/SafariPlusPrefs.bundle/SPRootIcon@2x.png
+
+Package: com.opa334.safariplus
+Version: 1.2.4
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common, org.thebigboss.libcolorpicker, net.limneos.libbulletin, com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Filename: .//debs/com.opa334.safariplus_1.2.4_iphoneos-arm.deb
+Size: 299920
+Installed-Size: 1212
+MD5sum: 9f97699524dd1279d06c45170d8e5607
+Description: Various enhancements to Safari!
+Name: Safari Plus
+Author: opa334 <opa334@protonmail.com>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=safariplusDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=safariplusDp
+Icon: file:///Library/PreferenceBundles/SafariPlusPrefs.bundle/SPRootIcon@2x.png
+
+Package: com.opa334.safariplus
+Version: 1.2.1
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common, org.thebigboss.libcolorpicker, net.limneos.libbulletin, com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Filename: .//debs/com.opa334.safariplus_1.2.1_iphoneos-arm.deb
+Size: 267538
+Installed-Size: 1110
+MD5sum: ee46af367fa971502f1a6f64bf9be86a
+Description: Various enhancements to Safari!
+Name: Safari Plus
+Author: opa334 <opa334@protonmail.com>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=safariplusDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=safariplusDp
+Icon: file:///Library/PreferenceBundles/SafariPlusPrefs.bundle/SPRootIcon@2x.png
+
+Package: com.opa334.safariplus
+Version: 1.2.6
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common, org.thebigboss.libcolorpicker, net.limneos.libbulletin, com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Filename: .//debs/com.opa334.safariplus_1.2.6_iphoneos-arm.deb
+Size: 303186
+Installed-Size: 1211
+MD5sum: 224f7ce891b2714a93633f30c3c1088b
+Description: Various enhancements to Safari!
+Name: Safari Plus
+Author: opa334 <opa334@protonmail.com>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=safariplusDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=safariplusDp
+Icon: file:///Library/PreferenceBundles/SafariPlusPrefs.bundle/SPRootIcon@2x.png
+
+Package: com.opa334.safariplus
+Version: 1.3.1
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common, org.thebigboss.libcolorpicker, net.limneos.libbulletin, com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Filename: .//debs/com.opa334.safariplus_1.3.1_iphoneos-arm.deb
+Size: 307498
+Installed-Size: 1110
+MD5sum: 54a3429c51aaf634bd588996e5b84e97
+Description: Various enhancements to Safari!
+Name: Safari Plus
+Author: opa334 <opa334@protonmail.com>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=safariplusDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=safariplusDp
+Icon: file:///Library/PreferenceBundles/SafariPlusPrefs.bundle/SPRootIcon@2x.png
+
+Package: com.opa334.safariplus
+Version: 1.3.5
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common, org.thebigboss.libcolorpicker, net.limneos.libbulletin, com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Filename: .//debs/com.opa334.safariplus_1.3.5_iphoneos-arm.deb
+Size: 317088
+Installed-Size: 1211
+MD5sum: d7d6abc4bc80d998073e426196737356
+Description: Various enhancements to Safari!
+Name: Safari Plus
+Author: opa334 <opa334@protonmail.com>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=safariplusDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=safariplusDp
+Icon: file:///Library/PreferenceBundles/SafariPlusPrefs.bundle/SPRootIcon@2x.png
+
+Package: com.opa334.safariplus
+Version: 1.2.2
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common, org.thebigboss.libcolorpicker, net.limneos.libbulletin, com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Filename: .//debs/com.opa334.safariplus_1.2.2_iphoneos-arm.deb
+Size: 269820
+Installed-Size: 1111
+MD5sum: 0d22d37cc61f0f1a47ff7616c7b507f1
+Description: Various enhancements to Safari!
+Name: Safari Plus
+Author: opa334 <opa334@protonmail.com>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=safariplusDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=safariplusDp
+Icon: file:///Library/PreferenceBundles/SafariPlusPrefs.bundle/SPRootIcon@2x.png
+
+Package: com.opa334.safariplus
+Version: 1.2
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common, org.thebigboss.libcolorpicker, net.limneos.libbulletin, com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Filename: .//debs/com.opa334.safariplus_1.2_iphoneos-arm.deb
+Size: 264996
+Installed-Size: 1114
+MD5sum: 0d196bd2db92a8834967701e104b0821
+Description: Various enhancements to Safari!
+Name: Safari Plus
+Author: opa334 <opa334@protonmail.com>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=safariplusDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=safariplusDp
+Icon: file:///Library/PreferenceBundles/SafariPlusPrefs.bundle/SPRootIcon@2x.png
+
+Package: com.opa334.safariplus
+Version: 1.3.4
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common, org.thebigboss.libcolorpicker, net.limneos.libbulletin, com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Filename: .//debs/com.opa334.safariplus_1.3.4_iphoneos-arm.deb
+Size: 317036
+Installed-Size: 1211
+MD5sum: 4dcba1bdf7e28b7d5df6dd0d75a391a4
+Description: Various enhancements to Safari!
+Name: Safari Plus
+Author: opa334 <opa334@protonmail.com>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=safariplusDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=safariplusDp
+Icon: file:///Library/PreferenceBundles/SafariPlusPrefs.bundle/SPRootIcon@2x.png
+
+Package: com.opa334.safariplus
+Version: 1.2.3
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common, org.thebigboss.libcolorpicker, net.limneos.libbulletin, com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Filename: .//debs/com.opa334.safariplus_1.2.3_iphoneos-arm.deb
+Size: 295482
+Installed-Size: 1211
+MD5sum: 84630189790fc653735531cf2cdfb1af
+Description: Various enhancements to Safari!
+Name: Safari Plus
+Author: opa334 <opa334@protonmail.com>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=safariplusDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=safariplusDp
+Icon: file:///Library/PreferenceBundles/SafariPlusPrefs.bundle/SPRootIcon@2x.png
+
 Package: com.skyrilhd.ioseleventheme
 Version: 1.0
 Section: Themes
@@ -6,10 +176,10 @@ Architecture: iphoneos-arm
 Filename: .//debs/com.skyrilhd.ioseleventheme_1.0_iphoneos-arm.deb
 Size: 13332
 MD5sum: c74b68f3de01820dfde9b5ac63a27751
-Description: My first Theme
+Description: I love you.
 Name: iOSElevenTheme
 Author: SkyrilHD
-Depiction: http://skyrilhd.github.io/repo/depictions/com.skyrilhd.ioseleventheme
+Depiction: http://skyrilhd.github.io/depictions/?p=com.supermamon.oldpackage
 
 Package: org.xbmc.kodi-ios64
 Version: 18.5-0
@@ -22,7 +192,6 @@ Conflicts: org.xbmc.kodi-ios
 Replaces: org.xbmc.kodi-ios
 Architecture: iphoneos-arm
 Filename: .//debs/org.xbmc.kodi-ios_18.5-0_iphoneos-arm64.deb
-Depiction: https://skyrilhd.github.io/repo/depictions/org.xbmc.kodi-ios64
 Size: 54854016
 Installed-Size: 185728
 MD5sum: 5f26b1f8fa297e4d768ce3701815a4aa
@@ -31,18 +200,4 @@ Name: Kodi-iOS (64-bit)
 Author: Team-Kodi
 Homepage: http://kodi.tv/
 Icon: file:///Applications/Kodi.app/AppIcon57x57.png
-
-Package: com.opa334.safariplus
-Version: 1.3.5
-Section: Tweaks
-Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common, org.thebigboss.libcolorpicker, net.limneos.libbulletin, com.rpetrich.rocketbootstrap
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Architecture: iphoneos-arm
-Filename: .//debs/com.opa334.safariplus_1.3.5_iphoneos-arm.deb
-MD5sum: d7d6abc4bc80d998073e426196737356
-Size: 1211
-Description: Various enhancements to Safari!
-Name: Safari Plus
-Author: opa334 <opa334@protonmail.com>
-Depiction: http://skyrilhd.github.io/repo/depictions/com.opa334.safariplus
 
