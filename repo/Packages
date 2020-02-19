@@ -39,6 +39,7 @@ Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Architecture: iphoneos-arm
 Filename: .//debs/com.opa334.safariplus_1.3.5_iphoneos-arm.deb
+MD5sum: d7d6abc4bc80d998073e426196737356
 Size: 1211
 Description: Various enhancements to Safari!
 Name: Safari Plus
