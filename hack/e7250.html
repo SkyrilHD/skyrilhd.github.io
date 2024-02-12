@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+	<meta name="robots" content="index, follow">
+    <link rel="shortcut icon" type="image/png" href="../favicon.png">
+    
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<link rel="stylesheet" type="text/css" href="../css/all.min.css">
+	
+    <title>E7250 Hackintosh</title>
+
+
+    
+<!-- Analytics -->
+ 
+<!-- Analytics END -->
+    
+</head>
+<body>
+<!-- Main container -->
+<div class="page-container">
+    
+<!-- bloc-0 -->
+<div class="bloc bloc-fill-screen none main-cls l-bloc " id="bloc-0">
+	<div class="container fill-bloc-top-edge">
+		<div class="row">
+			<div class="col-12">
+				<nav class="navbar row navbar-expand-md navbar-light" role="navigation">
+					<div class="container-fluid">
+						<a class="navbar-brand img-protected text-cls" href="../"><img src="../img/SkyrilHD_Logo.png" alt="logo" class="me-2" width="40" height="40" />SkyrilHD&rsquo;s GitHub Website</a>
+						<button id="nav-toggle" type="button" class="ui-navbar-toggler navbar-toggler border-0 p-0 ms-auto me-md-0" aria-expanded="false" aria-label="Toggle navigation" data-bs-toggle="collapse" data-bs-target=".navbar-46771">
+							<span class="navbar-toggler-icon"><svg height="32" viewBox="0 0 32 32" width="32"><path class="svg-menu-icon" d="m2 9h28m-28 7h28m-28 7h28"></path></svg></span>
+						</button>
+						<div class="collapse navbar-collapse navbar-46859 navbar-46771">
+								<ul class="site-navigation nav navbar-nav ms-auto">
+									<li class="nav-item">
+										<a href="../" class="nav-link ltc-3574">Home</a>
+									</li>
+								</ul>
+							</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+			<div class="row text-cls">
+				<div class="col-lg-12">
+					<h1 class="mg-md text-center">
+						E7250 Hackintoshing
+					</h1>
+					<h2 class="text-center mb-lg-5">
+						This page is about hackintoshing the E7250/Exx50.
+					</h2>
+				</div>
+				<div class="col">
+					<h3 class="mb-4">
+						History about the EFI
+					</h3>
+					<p class="mb-lg-5">
+						This EFI was created because when I got my laptop, it just felt wrong.<br /><br>I was using the 2006 MacBook 13" as my daily driver (as a portable device, I had an iMac 2012 which could only stay in one place). Well, since it is an old device which only runs Snow Leopard, it was time to replace my daily driver with a newer one. However, the newer MacBooks had so many issues, so I thought about buying a Windows laptop.<br />I got the E7250, and while using Windows, I missed my Pro Apps which I was working with outside. So, I thought about returning to the Hackintosh scene and create an EFI.<br /><br />The beginning was a mess, which is visible in the 10.14 branch. Beginning with the 10.15 branch, you can see a lot of improvements that took place after learning how everything works. I initially wanted to convert to OpenCore 0.5.7, but I couldn't do it because the changes between Clover and OpenCore are massive.<br>The OpenCore conversion had its break as I had to learn how OpenCore works. Reading the manual and Dortania's guide, I was able to learn how OpenCore works very quickly. Then, the OpenCore conversion began.<br>Since OpenCore is very sensitive about the config, I decided to upload the OpenCore 0.5.7 EFI, so I had a backup for myself. And since then, I tried improving the user experience, which was easier said than done.<br>I pretty much fixed most of the issues, and the only issue that kept me from releasing the complete EFI was a sleep bug, which was really annoying. The issue occurred when you plugged a USB device or the AC charger in, sleep became broken. However, without any device plugged in, it worked just fine. That was really weird, as according to the logs, I had a "lid" problem. So, I thought the laptop was shorted, which caused this issue. But reading Dortania's guide on how to fix sleep, I thought I fixed it by remapping the USB ports. Well, it didn't. So, the EFI was delayed again until OpenCore 0.6.0 was released.<br><br>This time I took a different approach and read Dortania's guide once again. So, I try-and-errored through the guide, and it turns out a simple GPRW patch was needed. After fixing the annoying issue, the EFI got released the day after. The only small issue it had though was the F11 and F12 brightness keys, which had a workaround with Karabiner Elements.<br><br>So, the time went by, and I was ready for Big Sur. Four days after Big Sur got initially released, I managed to boot Big Sur on my E7250, which I was very proud of. And everything worked beside the F11/F12 issue :P. With caution and behind the scenes, I completed my OpenCore 0.6.0/0.6.1 EFI in a different branch which is now deleted and perfected the EFI for Big Sur. Again, time went by, and when OpenCore 0.6.2 was released, I made a clean EFI which has no other debugging crap on it and posted every single change I did on GitHub.<br><br>But I know myself, I knew an F11/F12 issue could not beat me. So, I tried nearly every SSDT patches to fix this damn issue. I thought finally including the ACOS_ACSE SSDT fixed the issue, since it really did fix it. On OpenCore 0.6.3 release, I updated the current EFI and the kexts which were critical for later beta and stable releases of Big Sur. And that is where the story nearly ends.<br><br>The EFI was completed, stable, and running fast. But wait, the F11/F12 brightness issue is still there. So, I added a BRT6 patch and SSDT, which was the fix I waited for so long. After fixing this issue, I completed the EFI.<br><br>Damn. The history of this EFI is really huge. But in the end, the EFI is completed, has no issues, and works very well.&nbsp;So, I created a repo after making a semi-successful EFI which I wanted to share. Here we are, now we are running Sonoma with our machine flawlessly. There is also a nice transition from "throw everything in and hope everything works" to "this is broken? Here is the fix". Mainly, since hackintoshing changed so much in the past few years, I even had to learn again how hackintoshing works.<br><br>Now I love my E7250 even more.<br>
+					</p>
+					<h3 class="mb-4">
+						Improve the Hackintosh experience
+					</h3>
+					<p>
+						The EFI I provide is still not complete, in my opinion. Yes, it is usable for daily use, but the EFI can be improved. The changes I made do not suit every system, so the patches have to be done by yourself. Here are some examples:<br>
+					</p>
+					<h4 class="mb-4">
+						Airportitlwm
+					</h4>
+					<p>
+						This kext will enable connecting to the internet with an Intel Wi-Fi card. The kext is very stable, but I still do not consider it "finished". The boot time could be longer, which is not ideal. Additionally, users who have another Wi-Fi card will also experience issues due to the "unfinished" kext. However, if you want to try the kext anyway, I suggest enabling it from the "config.plist". Additionally, if you want to use Intel Bluetooth, open the "config.plist" and enable BlueToolFixup, IntelBluetoothFirmware, and IntelBluetoothInjector.<br>
+					</p>
+					<h4 class="mb-4">
+						SMBIOS
+					</h4>
+					<p>
+						This EFI already includes an SMBIOS. However, since it is a pre-made EFI, I suggest changing the serial number so that people who use the EFI do not have the same serial number/board number, which can be blocked. Using <a class="ltc-3574" href="https://github.com/corpnewt/GenSMBIOS" target="_blank">GenSMBIOS</a> will create a serial number and replace the numbers in the "config.plist", which can be found under <a class="ltc-3574" href="https://github.com/SkyrilHD/Dell-E7250-Hackintosh/commit/888de32de49129d9cb64e458f03746fe9dcd0443" target="_blank">PlatformInfo &gt; Generic</a>.<br>
+					</p>
+					<h4 class="mb-4">
+						Language
+					</h4>
+					<p>
+						This is a minor OCD thing, but changing the language to your preferred language is recommended. The current default language is English. This is the <a class="ltc-3574" href="https://github.com/SkyrilHD/Dell-E7250-Hackintosh/commit/c6411621eb50c44abf7300094b6a2722e759bfe3" target="_blank">line</a> you need to change. The list of languages can be found <a class="ltc-3574" href="https://github.com/acidanthera/OpenCorePkg/blob/master/Utilities/AppleKeyboardLayouts/AppleKeyboardLayouts.txt" target="_blank">here</a>.
+					</p>
+					<h4 class="mb-4">
+						Fast Boot
+					</h4>
+					<p>
+						The EFI displays the picker at every boot, which is a waste of time if you need to get your work done quickly. You can disable the picker by changing 'ShowPicker' to false in "config.plist" (which can be found under Misc &gt; Boot). The boot chime is still activated. Accessing the picker is hit-or-miss for me. According to the documents, you can enter the picker menu by holding the "Option"&nbsp;key.
+					</p>
+					<h4 class="mb-4">
+						Touchscreen
+					</h4>
+					<p>
+						For those who have the touchscreen model, you can try using your touchscreen as well! You just have to enable VoodooI2C-related kexts, which are VoodooGPIO.kext, VoodooI2CServices.kext, VoodooInput.kext, VoodooI2C.kext, and VoodooI2CHID.kext.<br>This is a feature I did not and cannot try because I own the 768p model.<br>
+					</p>
+				</div>
+			</div>
+		</div>
+</div>
+<!-- bloc-0 END -->
+
+<!-- bloc-1 -->
+<div class="bloc footer-cls d-bloc" id="bloc-1">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-lg-6 offset-lg-3 text-lg-center align-self-center">
+				<div class="row">
+					<div class="col-6 col-sm-2 offset-sm-2 col">
+						<div class="text-center">
+							<a href="https://twitter.com/skyrilhd" target="_blank"><span class="icon-md fab fa-twitter pt-lg-0 none icon-3574"></span></a>
+						</div>
+					</div>
+					<div class="col-6 col-sm-2">
+						<div class="text-center">
+							<a href="https://instagram.com/skyrilhd" target="_blank"><span class="icon-md fab fa-instagram icon-3574"></span></a>
+						</div>
+					</div>
+					<div class="col-6 col-sm-2">
+						<div class="text-center">
+							<a href="https://github.com/skyrilhd" target="_blank"><span class="icon-md fab fa-github icon-3574"></span></a>
+						</div>
+					</div>
+					<div class="col-6 col-sm-2">
+						<div class="text-center">
+							<a href="https://youtube.com/skyrilhd" target="_blank"><span class="icon-md fab fa-youtube icon-3574"></span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-1 END -->
+
+</div>
+<!-- Main container END -->
+    
+
+
+<!-- Additional JS -->
+<script src="../js/bootstrap.bundle.js"></script>
+<script src="../js/blocs.js"></script><!-- Additional JS END -->
+
+
+</body>
+</html>
