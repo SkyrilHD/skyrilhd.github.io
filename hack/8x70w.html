@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+	<meta name="robots" content="index, follow">
+    <link rel="shortcut icon" type="image/png" href="../favicon.png">
+    
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<link rel="stylesheet" type="text/css" href="../css/all.min.css">
+	
+    <title>8x70W Hackintosh</title>
+
+
+    
+<!-- Analytics -->
+ 
+<!-- Analytics END -->
+    
+</head>
+<body>
+<!-- Main container -->
+<div class="page-container">
+    
+<!-- bloc-0 -->
+<div class="bloc bloc-fill-screen none main-cls l-bloc " id="bloc-0">
+	<div class="container fill-bloc-top-edge">
+		<div class="row">
+			<div class="col-12">
+				<nav class="navbar row navbar-expand-md navbar-light" role="navigation">
+					<div class="container-fluid">
+						<a class="navbar-brand img-protected text-cls" href="../"><img src="../img/SkyrilHD_Logo.png" alt="logo" class="me-2" width="40" height="40" />SkyrilHD&rsquo;s GitHub Website</a>
+						<button id="nav-toggle" type="button" class="ui-navbar-toggler navbar-toggler border-0 p-0 ms-auto me-md-0" aria-expanded="false" aria-label="Toggle navigation" data-bs-toggle="collapse" data-bs-target=".navbar-46771">
+							<span class="navbar-toggler-icon"><svg height="32" viewBox="0 0 32 32" width="32"><path class="svg-menu-icon" d="m2 9h28m-28 7h28m-28 7h28"></path></svg></span>
+						</button>
+						<div class="collapse navbar-collapse navbar-46859 navbar-46771">
+								<ul class="site-navigation nav navbar-nav ms-auto">
+									<li class="nav-item">
+										<a href="../" class="nav-link ltc-3574">Home</a>
+									</li>
+								</ul>
+							</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+			<div class="row text-cls">
+				<div class="col-lg-12">
+					<h1 class="mg-md text-center">
+						8x70W Hackintoshing
+					</h1>
+					<h2 class="text-center mb-lg-5">
+						This page is about hackintoshing the 8x70W.
+					</h2>
+				</div>
+				<div class="col">
+					<h3 class="mb-4">
+						History about the EFI
+					</h3>
+					<p class="mb-lg-3">
+						There is already a history written in German by @TECHNIKVERBOT, which you can find <a class="ltc-3574" href="https://technikverbot.github.io/html/8570W.html" target="_blank">here</a>.<br><br>But here is a quick TL;DR in English:<br>
+					</p>
+					<ul class="mb-lg-5">
+						<li>
+							<p>
+								Our tester (@HansHubertHass) wanted to try Hackintosh.
+							</p>
+						</li>
+						<li>
+							<p>
+								We attempted to download an EFI from a Chinese website, which failed.
+							</p>
+						</li>
+						<li>
+							<p>
+								We created a Clover EFI that failed to boot macOS.
+							</p>
+						</li>
+						<li>
+							<p>
+								Initial boot with an OpenCore EFI on 05/31/2020 with many broken features.
+							</p>
+						</li>
+						<li>
+							<p>
+								After many trial-and-error attempts, the EFI became stable, except for:
+							</p>
+							<ul>
+								<li>
+									<p class="btn-resize-mode">
+										Sleep
+									</p>
+								</li>
+								<li>
+									<p>
+										Brightness control
+									</p>
+								</li>
+								<li>
+									<p>
+										Battery readout
+									</p>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<p>
+								Development of the EFI paused after deciding to uninstall macOS and revert to Windows.
+							</p>
+						</li>
+						<li>
+							<p>
+								After @TECHNIKVERBOT suggested our tester buy an external enclosure, further development of the EFI resumed.
+							</p>
+						</li>
+					</ul>
+					<h3 class="mb-4">
+						Improve the Hackintosh experience
+					</h3>
+					<p>
+						The EFI I provide is still not complete, in my opinion. Yes, it is usable for daily use, but the EFI can be improved. The changes I made do not suit every system, so the patches have to be done by yourself. Here are some examples:<br>
+					</p>
+					<h4 class="mb-4">
+						SMBIOS
+					</h4>
+					<p>
+						This EFI already includes an SMBIOS. However, since it is a pre-made EFI, I suggest changing the serial number so that people who use the EFI do not have the same serial number/board number, which can be blocked. Using <a class="ltc-3574" href="https://github.com/corpnewt/GenSMBIOS" target="_blank">GenSMBIOS</a> will create a serial number and replace the numbers in the "config.plist", which can be found under PlatformInfo &gt; Generic.
+					</p>
+					<h4 class="mb-4">
+						Language
+					</h4>
+					<p>
+						This is a minor OCD thing, but changing the language to your preferred language is recommended. The current default language is English. The list of languages can be found <a class="ltc-3574" href="https://github.com/acidanthera/OpenCorePkg/blob/master/Utilities/AppleKeyboardLayouts/AppleKeyboardLayouts.txt" target="_blank">here</a>.
+					</p>
+					<h4 class="mb-4">
+						Fast Boot
+					</h4>
+					<p>
+						The EFI displays the picker at every boot, which is a waste of time if you need to get your work done quickly. You can disable the picker by changing 'ShowPicker' to false in "config.plist" (which can be found under Misc &gt; Boot). The boot chime is still activated. Accessing the picker is hit-or-miss for me. According to the documents, you can enter the picker menu by holding the "Option"&nbsp;key.
+					</p>
+				</div>
+			</div>
+		</div>
+</div>
+<!-- bloc-0 END -->
+
+<!-- bloc-1 -->
+<div class="bloc footer-cls d-bloc" id="bloc-1">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-lg-6 offset-lg-3 text-lg-center align-self-center">
+				<div class="row">
+					<div class="col-6 col-sm-2 offset-sm-2 col">
+						<div class="text-center">
+							<a href="https://twitter.com/skyrilhd" target="_blank"><span class="icon-md fab fa-twitter pt-lg-0 none icon-3574"></span></a>
+						</div>
+					</div>
+					<div class="col-6 col-sm-2">
+						<div class="text-center">
+							<a href="https://instagram.com/skyrilhd" target="_blank"><span class="icon-md fab fa-instagram icon-3574"></span></a>
+						</div>
+					</div>
+					<div class="col-6 col-sm-2">
+						<div class="text-center">
+							<a href="https://github.com/skyrilhd" target="_blank"><span class="icon-md fab fa-github icon-3574"></span></a>
+						</div>
+					</div>
+					<div class="col-6 col-sm-2">
+						<div class="text-center">
+							<a href="https://youtube.com/skyrilhd" target="_blank"><span class="icon-md fab fa-youtube icon-3574"></span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-1 END -->
+
+</div>
+<!-- Main container END -->
+    
+
+
+<!-- Additional JS -->
+<script src="../js/bootstrap.bundle.js"></script>
+<script src="../js/blocs.js"></script><!-- Additional JS END -->
+
+
+</body>
+</html>
